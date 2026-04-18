@@ -1,0 +1,40 @@
+{
+  "signal_strength": {
+    "GitHub": "high",
+    "GitLab": "high",
+    "LinkedIn": "high",
+    "Docker Hub": "medium",
+    "Instagram": "medium",
+    "Reddit": "medium",
+    "TikTok": "medium",
+    "Twitch": "medium",
+    "Twitter": "medium",
+    "YouTube": "medium"
+  },
+  "priority_sites": [
+    "GitHub",
+    "LinkedIn",
+    "Reddit"
+  ],
+  "collector_weights": {
+    "sherlock": 3,
+    "whatsmyname": 1
+  },
+  "report_settings": {
+    "top_review_limit": 12,
+    "top_review_min_score": 8
+  },
+  "disabled_sites": [
+    "APClips",
+    "ChaturBate",
+    "Erome",
+    "Motherless",
+    "PocketStars",
+    "Pornhub",
+    "RoyalCams",
+    "TnAFlix",
+    "Xvideos",
+    "YouPorn",
+    "xHamster"
+  ]
+}

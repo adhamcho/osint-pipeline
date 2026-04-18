@@ -1,0 +1,4 @@
+username,name,url_main,url_user,exists,http_status,response_time_s
+testvalue,GitHub,https://github.com,https://github.com/testvalue,Claimed,200,0.12
+testvalue,Instagram,https://instagram.com,https://instagram.com/testvalue,Available,404,0.10
+testvalue,SomeSite,https://somesite.example,,Illegal,,0
