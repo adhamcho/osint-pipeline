@@ -128,10 +128,10 @@ Top Lead
 - Priority: High
 - Reason: high-signal platform + public username match
 
-Conflict
+Single-Source Lead
 - Platform: Spotify
-- Status: source conflict
-- Note: one workflow found a public match while another did not
+- Status: found by one workflow only
+- Note: this is a useful lead, but it was not corroborated by another source
 ```
 
 Why that matters:
@@ -155,8 +155,8 @@ In plain English:
   - multiple sources finding the same platform is more useful than one source alone
 - cross-signal overlap raises priority
   - for example, email signals lining up with a username result
-- conflicts and unstable results reduce confidence
-  - disagreement is surfaced instead of treated like confirmation
+- unstable or not-yet-corroborated results reduce confidence
+  - a single-source lead is still useful, but it should rank below corroborated findings
 
 The goal is not to claim certainty. The goal is to help an analyst decide what to look at first.
 

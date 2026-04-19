@@ -26,7 +26,7 @@ It is intentionally generic and is meant for documentation and showcase use, not
 - `GitHub` [high] (1 source found): `https://github.com/exampleuser` | `sherlock=found` | `score=14`
   - Why: name-token overlap in public URL: example (+2)
 - `Reddit` [medium] (2 sources found): `https://www.reddit.com/user/exampleuser` | `sherlock=found, whatsmyname=found` | `score=13`
-- `Spotify` [medium] (source conflict): `https://open.spotify.com/user/exampleuser` | `sherlock=found, whatsmyname=not_found` | `score=12`
+- `Spotify` [medium] (single-source lead): `https://open.spotify.com/user/exampleuser` | `sherlock=found, whatsmyname=not_found` | `score=12`
   - Why: email workflow found the same service (+3)
 
 ### Cross-Signal Highlights
